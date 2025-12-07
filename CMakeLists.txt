@@ -38,3 +38,6 @@ find_package(spdlog CONFIG REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE
   fltk fltk_images
   spdlog::spdlog_header_only)
+
+# Add subdirectories
+add_subdirectory(day1)
