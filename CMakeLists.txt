@@ -43,3 +43,4 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 add_subdirectory(day1)
 add_subdirectory(day2)
 add_subdirectory(day3)
+add_subdirectory(day4)
